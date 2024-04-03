@@ -5,13 +5,13 @@ This module integrates the [Vue 3 Carousel](https://github.com/ismail9k/vue3-car
 ## Installation
 
 ```bash
-npm install vue3-carousel-nuxt
+npx nuxi@latest module add vue3-carousel-nuxt
 ```
 
 or with Yarn:
 
 ```bash
-yarn add vue3-carousel-nuxt
+npx nuxi@latest module add vue3-carousel-nuxt
 ```
 
 ## Usage
