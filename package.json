@@ -26,17 +26,17 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@nuxt/kit": "^3.6.3",
-    "vue3-carousel": "^0.3.1"
+    "@nuxt/kit": "^3.11.0",
+    "vue3-carousel": "^0.3.3"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
-    "@nuxt/eslint-config": "^0.1.1",
-    "@nuxt/module-builder": "^0.4.0",
-    "@nuxt/schema": "^3.6.3",
-    "@types/node": "^18.16.19",
-    "changelogen": "^0.5.4",
-    "eslint": "^8.45.0",
-    "nuxt": "^3.6.3"
+    "@nuxt/eslint-config": "^0.2.0",
+    "@nuxt/module-builder": "^0.5.5",
+    "@nuxt/schema": "^3.11.1",
+    "@types/node": "^20.11.28",
+    "changelogen": "^0.5.5",
+    "eslint": "^8.57.0",
+    "nuxt": "^3.11.1"
   }
 }
