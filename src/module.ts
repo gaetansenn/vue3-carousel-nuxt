@@ -23,7 +23,7 @@ export default defineNuxtModule<CarouselOptions>({
     })
 
     // Add slider css
-    nuxt.options.css.push('vue3-carousel/dist/carousel.css')
+    nuxt.options.css.unshift('vue3-carousel/dist/carousel.css')
     nuxt.options.alias = {
       ...nuxt.options.alias,
       'vue3-carousel/dist/carousel': 'vue3-carousel/dist/carousel.es.js',
