@@ -1,6 +1,22 @@
 # Changelog
 
 
+## v1.1.2
+
+[compare changes](https://github.com/gaetansenn/vue3-carousel-nuxt/compare/v1.1.1...v1.1.2)
+
+### 🩹 Fixes
+
+- Fix non respect of standard .mjs file name and upgrade dependencies ([df0e2fb](https://github.com/gaetansenn/vue3-carousel-nuxt/commit/df0e2fb))
+
+### 🏡 Chore
+
+- **release:** V1.1.1 ([22d1aa4](https://github.com/gaetansenn/vue3-carousel-nuxt/commit/22d1aa4))
+
+### ❤️ Contributors
+
+- Gaetan SENN ([@gaetansenn](http://github.com/gaetansenn))
+
 ## v1.1.1
 
 [compare changes](https://github.com/gaetansenn/vue3-carousel-nuxt/compare/v1.1.0...v1.1.1)
