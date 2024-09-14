@@ -59,3 +59,34 @@ Remember, you don't need to import the `carousel.css` again in your stylesheets,
 For detailed information about the Vue 3 Carousel component, its usage, options and events, please refer to the [official Vue 3 Carousel documentation](https://ismail9k.github.io/vue3-carousel/).
 
 To contribute, submit issues or pull requests, visit the [Vue 3 Carousel GitHub repository](https://github.com/ismail9k/vue3-carousel).
+
+## Contribution
+
+<details>
+  <summary>Local development</summary>
+  
+  ```bash
+  # Install dependencies
+  npm install
+  
+  # Generate type stubs
+  npm run dev:prepare
+  
+  # Develop with the playground
+  npm run dev
+  
+  # Build the playground
+  npm run dev:build
+  
+  # Run ESLint
+  npm run lint
+  
+  # Run Vitest
+  npm run test
+  npm run test:watch
+  
+  # Release new version
+  npm run release
+  ```
+
+</details>
