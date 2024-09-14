@@ -1,7 +1,7 @@
 export default defineNuxtConfig({
   modules: ['../src/module'],
   carousel: {
-    prefix: 'C'
+    prefix: 'C',
   },
-  devtools: { enabled: true }
+  devtools: { enabled: true },
 })

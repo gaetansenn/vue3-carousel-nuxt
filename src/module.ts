@@ -8,23 +8,23 @@ export default defineNuxtModule<CarouselOptions>({
   meta: {
     name: 'vue3-carousel-nuxt',
     compatibility: {
-      nuxt: '>=3.0.0'
-    }
+      nuxt: '>=3.0.0',
+    },
   },
-  setup (options, nuxt) {
+  setup(options, nuxt) {
     const prefix = options.prefix || nuxt.options.carousel?.prefix || '';
 
-    (['Carousel', 'Slide', 'Pagination', 'Navigation'] as string[]).map((c) => ({
+    (['Carousel', 'Slide', 'Pagination', 'Navigation'] as string[]).map(c => ({
       name: `${prefix}${c}`,
       filePath: 'vue3-carousel/dist/carousel',
-      export: c
+      export: c,
     })).forEach((c) => {
       addComponent(c)
     })
 
     // Add slider css
     nuxt.options.css.unshift('vue3-carousel/dist/carousel.css')
-  }
+  },
 })
 
 declare module '@nuxt/schema' {
